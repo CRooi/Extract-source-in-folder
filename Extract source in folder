@@ -11,7 +11,7 @@ def extract_code_to_word(folder_path, output_file):
     for root, dirs, files in os.walk(folder_path):
         for file in files:
             # 检查文件扩展名，以只提取代码文件
-            if file.endswith(('.py', '.java', '.c', '.cpp', '.js', '.html', '.css', '.rb', '.go','.vue')):  # 可根据需要添加更多扩展名
+           if file.endswith(('.java','.vue')):  # 可根据需要添加更多扩展名
             # if file.endswith(('.py', '.java', '.c', '.cpp', '.js', '.html', '.css', '.rb', '.go')):  # 可根据需要添加更多扩展名
                 file_path = os.path.join(root, file)
                 doc.add_heading(file, level=2)
@@ -28,8 +28,8 @@ def extract_code_to_word(folder_path, output_file):
 
 
 # 使用示例
-folder_path = r'C:\Users\耿志超\Desktop\商城项目\24实训在线商城系统前端\src\views'  # 替换为代码文件夹的路径
-#folder_path = r'C:\Users\耿志超\Desktop\商城项目\24实训在线商城系统前端\src\views'  # 替换为代码文件夹的路径
+folder_path = r'项目文件夹'  # 替换为代码文件夹的路径，可以包含前后端代码
+
 output_file = 'qianduan_code.docx'  # 输出Word文件名
-#output_file = 'qianduan_code.docx'  # 输出Word文件名
+
 extract_code_to_word(folder_path, output_file)
