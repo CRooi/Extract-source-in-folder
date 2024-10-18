@@ -7,9 +7,9 @@
 #### 安装教程
 
 1.  打开 PyCharm Community Edition 或者其他的可以运行 Python 的应用环境。
-2.  在 PyCharm Community Edition 打开命令框输入以下命令安装 python-docx 库：
+2.  在 PyCharm Community Edition 打开终端输入以下命令安装 python-docx 库：
     ```bash
-    pip install python-docx
+    pip install -r requirements.txt
     ```
 
 #### 使用说明
