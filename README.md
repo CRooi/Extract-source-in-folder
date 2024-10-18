@@ -1,10 +1,10 @@
 # Extract-source-in-folder
 提取文件夹中的源代码保存到word文件中。
 
-#### 介绍
+## 介绍
 通过python脚本来提取文件夹中的源代码，包括  `.java` `.py`, `.java`, `.c`, `.cpp`, `.js`, `.html`, `.css`, `.rb`, `.go`, `.vue` 等类型的源代码来方便的重复操作。
 
-#### 安装教程
+## 安装教程
 
 1.  打开 PyCharm Community Edition 或者其他的可以运行 Python 的应用环境。
 2.  在 PyCharm Community Edition 打开终端输入以下命令安装 python-docx 库：
@@ -12,7 +12,7 @@
     pip install -r requirements.txt
     ```
 
-#### 使用说明
+## 使用说明
 
 1.  设置文件夹路径：
     ```python
@@ -27,5 +27,5 @@
     git clone https://gitee.com/G88ra/extract-source-in-folder.git
     ```
 
-#### Credit
+## Credit
 [888Ra/Extract-source-in-folder](https://github.com/888Ra/Extract-source-in-folder)
